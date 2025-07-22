@@ -8,13 +8,13 @@ import os
 
 # This was changed
 # Load environment variables
-# YOUTUBE_API_KEY = st.secrets["YOUTUBE_API_KEY"]
-# HF_TOKEN = st.secrets["HF_TOKEN"]
+YOUTUBE_API_KEY = st.secrets["YOUTUBE_API_KEY"]
+HF_TOKEN = st.secrets["HF_TOKEN"]
 
 # Load environment variables from .env file
-dotenv.load_dotenv()  
-YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
-HF_TOKEN = os.getenv("HF_TOKEN")
+# dotenv.load_dotenv()  
+# YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
+# HF_TOKEN = os.getenv("HF_TOKEN")
 
 #-------------------------
 
